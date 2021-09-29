@@ -1,12 +1,14 @@
-# author: cjp (amdg) 9/16/2021
-a=2
-print(type(a))
+# author: cjp (amdg) 9/29/2021
 
-a=float(a)
+x= int(input("how many points did the team score?"))
 
-print(type(a))
-a=str(a)
-print(str(a))
+elif x>= 15:
+     print("they recieved the gold medal!")
 
-a= bool(a)
-print(a == 2)
+     elif x>= 12:
+          print ("they recieved the silver medal!")
+
+     elif x <9:
+             print("no medal for you")
+        else:
+             print(:"they recieved bronze!")
